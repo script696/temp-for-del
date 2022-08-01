@@ -1,5 +1,5 @@
-export const SERVER_HOST = 'http://192.168.53.19'; //'http://82.151.110.239'; // `http://${window.location.hostname}`;
-export const SERVER_PORT = '80';
+export const SERVER_HOST = 'http://82.151.110.244'; //'http://82.151.110.239'; // `http://${window.location.hostname}`;
+export const SERVER_PORT = '8027';
 export const SERVER_WORKSPACE = 'api';
 export const SERVER_URL = `${SERVER_HOST}:${SERVER_PORT}/${SERVER_WORKSPACE}`;
 

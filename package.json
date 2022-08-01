@@ -1,7 +1,7 @@
 {
   "name": "arm-secretary",
   "version": "0.1.0",
-  "homepage": "http://127.0.0.1:80",
+  "homepage": "build",
   "private": true,
   "dependencies": {
     "@ckeditor/ckeditor5-react": "^3.0.3",
