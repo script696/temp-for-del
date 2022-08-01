@@ -44,6 +44,9 @@
     "web-vitals": "^1.0.1",
     "yup": "^0.32.11"
   },
+ "resolutions": {
+    "@types/react": "17.0.44"
+  },
   "scripts": {
     "start": " react-scripts start",
     "build": "react-scripts build",
