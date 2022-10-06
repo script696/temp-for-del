@@ -68,6 +68,17 @@
   align-items: center;
 }
 
+.judicialcases-header-btn-wrapper {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: flex-end;
+}
+
+.judicialcases-header-btn {
+  width: 223px;
+  height: 36px;
+}
+
 .judicialcases-editbtn {
   padding: 8px 23px;
 }

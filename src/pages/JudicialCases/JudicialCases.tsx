@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
-import { Row, Col } from 'reactstrap';
+import { Row, Col, Button } from 'reactstrap';
 import { loadJudicialCases } from 'store/actions';
 import { RootState } from 'store/reducers';
 import { Breadcrumbs, Table } from 'components';
@@ -87,6 +87,15 @@ const JudicialCases = ({
                   value={searchInput}
                   onChange={searchInputHandler}
                 />
+                <div className='judicialcases-header-btn-wrapper'>
+                  <Button
+                    color='primary'
+                    className='judicialcases-header-btn'
+                    onClick={() => console.log('hi')}
+                  >
+                    Создать дело
+                  </Button>
+                </div>
               </div>
             </div>
 
