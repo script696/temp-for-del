@@ -21,3 +21,5 @@ export { default as TextEditor } from './TextEditor/TextEditor';
 export { default as Table } from './Table/Table';
 export { default as WavesurferLoader } from './WavesurferLoader/WavesurferLoader';
 export { default as SpinerLoadFile } from './SpinerLoadFile/SpinerLoadFile';
+export { default as FormInput } from './FormInput/FormInput';
+export { default as FormCheckbox } from './FormCheckbox/FormCheckbox';

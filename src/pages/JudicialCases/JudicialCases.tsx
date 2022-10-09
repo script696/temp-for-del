@@ -5,7 +5,7 @@ import { Row, Col, Button } from 'reactstrap';
 import { loadJudicialCases } from 'store/actions';
 import { RootState } from 'store/reducers';
 import { Breadcrumbs, Table } from 'components';
-import { columnsTable } from './components';
+import {columnsTable, FormCreationDeal} from './components';
 import { IJudicialCasesProps } from './JudicialCasesTypes';
 import { getDateInFormat } from 'utils/app_helper';
 import { judicialCasesRenderPeopleType } from './components/JudicialCasesTable/JudicialCasesTableColumns';
@@ -107,6 +107,7 @@ const JudicialCases = ({
           </div>
         </Col>
       </Row>
+        <FormCreationDeal/>
     </>
   );
 };
